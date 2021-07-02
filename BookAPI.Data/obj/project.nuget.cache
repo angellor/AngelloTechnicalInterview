@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DHJlIIG9hTvfphgzrIaI5duvbQQK7WTSk+j5ZeK9PNPuztntvKQ2DYbOY3N0bmotindKrd0PRUMN/fCmYn0UjQ==",
+  "dgSpecHash": "8odora+2koa1Je2PV5Zabza+/q8jQ52K4xJJjcCsaxLXF0Lt1gZa0Zs+TsAx5sn7ia1MlKeFkmtSsRBiCA0JPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\angellor\\Downloads\\ReadingCorpBookAPI-main\\ReadingCorpBookAPI-main\\BookAPI.Data\\BookAPI.Data.csproj",
+  "projectFilePath": "C:\\Users\\angellor\\Source\\Repos\\AngelloTechnicalInterview\\BookAPI.Data\\BookAPI.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\angellor\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.7\\microsoft.aspnetcore.jsonpatch.5.0.7.nupkg.sha512",
     "C:\\Users\\angellor\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

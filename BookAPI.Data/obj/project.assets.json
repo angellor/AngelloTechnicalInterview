@@ -912,11 +912,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\angellor\\Downloads\\ReadingCorpBookAPI-main\\ReadingCorpBookAPI-main\\BookAPI.Data\\BookAPI.Data.csproj",
+      "projectUniqueName": "C:\\Users\\angellor\\Source\\Repos\\AngelloTechnicalInterview\\BookAPI.Data\\BookAPI.Data.csproj",
       "projectName": "BookAPI.Data",
-      "projectPath": "C:\\Users\\angellor\\Downloads\\ReadingCorpBookAPI-main\\ReadingCorpBookAPI-main\\BookAPI.Data\\BookAPI.Data.csproj",
+      "projectPath": "C:\\Users\\angellor\\Source\\Repos\\AngelloTechnicalInterview\\BookAPI.Data\\BookAPI.Data.csproj",
       "packagesPath": "C:\\Users\\angellor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\angellor\\Downloads\\ReadingCorpBookAPI-main\\ReadingCorpBookAPI-main\\BookAPI.Data\\obj\\",
+      "outputPath": "C:\\Users\\angellor\\Source\\Repos\\AngelloTechnicalInterview\\BookAPI.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\angellor\\AppData\\Roaming\\NuGet\\NuGet.Config",

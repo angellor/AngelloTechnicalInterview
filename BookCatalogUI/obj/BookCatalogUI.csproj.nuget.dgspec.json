@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\angellor\\Downloads\\ReadingCorpBookAPI-main\\ReadingCorpBookAPI-main\\BookCatalogUI\\BookCatalogUI.csproj": {}
+    "C:\\Users\\angellor\\Source\\Repos\\AngelloTechnicalInterview\\BookCatalogUI\\BookCatalogUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\angellor\\Downloads\\ReadingCorpBookAPI-main\\ReadingCorpBookAPI-main\\BookCatalogUI\\BookCatalogUI.csproj": {
+    "C:\\Users\\angellor\\Source\\Repos\\AngelloTechnicalInterview\\BookCatalogUI\\BookCatalogUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\angellor\\Downloads\\ReadingCorpBookAPI-main\\ReadingCorpBookAPI-main\\BookCatalogUI\\BookCatalogUI.csproj",
+        "projectUniqueName": "C:\\Users\\angellor\\Source\\Repos\\AngelloTechnicalInterview\\BookCatalogUI\\BookCatalogUI.csproj",
         "projectName": "BookCatalogUI",
-        "projectPath": "C:\\Users\\angellor\\Downloads\\ReadingCorpBookAPI-main\\ReadingCorpBookAPI-main\\BookCatalogUI\\BookCatalogUI.csproj",
+        "projectPath": "C:\\Users\\angellor\\Source\\Repos\\AngelloTechnicalInterview\\BookCatalogUI\\BookCatalogUI.csproj",
         "packagesPath": "C:\\Users\\angellor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\angellor\\Downloads\\ReadingCorpBookAPI-main\\ReadingCorpBookAPI-main\\BookCatalogUI\\obj\\",
+        "outputPath": "C:\\Users\\angellor\\Source\\Repos\\AngelloTechnicalInterview\\BookCatalogUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\angellor\\AppData\\Roaming\\NuGet\\NuGet.Config",

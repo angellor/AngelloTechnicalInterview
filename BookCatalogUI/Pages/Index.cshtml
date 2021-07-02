@@ -1,0 +1,143 @@
+﻿@page
+<div class="container-fluid">
+
+   <!-- Heading and Add new book button-->
+   <div class="d-flex bd-highlight mb-2">
+      <div class="me-auto p-2 bd-highlight">
+         <h2>Catalogue of books</h2>
+      </div>
+      <div class="p-2 bd-highlight">
+         <button type="button" class="btn text-white" style="background-color: #219274 !important;" data-bs-toggle="modal" data-bs-target="#modalCreateForm">Add New Book</button>
+      </div>
+   </div>
+
+   <!-- Table of books-->
+   <div class="table-responsive">
+      <table class="table table-sm table-dark table-striped">
+         <thead>
+            <tr>
+               <th scope="col">Book Name</th>
+               <th scope="col">Author</th>
+
+               <th scope="col">Category</th>
+               <th scope="col">Description</th>
+               <th scope="col">Date Reg.</th>
+               <th scope="col">Actions</th>
+            </tr>
+         </thead>
+
+         <tbody id="booktableBody">
+            <tr>
+               <th scope="row" colspan="6">
+                  <div class="spinner-border text-success d-flex justify-content-center mx-auto" style="color: #168c6d !important;" role="status">
+                     <span class="visually-hidden">Loading...</span>
+                  </div>
+
+               </th>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+
+   <!--Create Modal-->
+   <div class="modal fade" id="modalCreateForm" tabindex="-1">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title">Create New Book</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+               <form>
+                  <div class="mb-3">
+                     <label class="form-label">Name Of Book</label>
+                     <input type="text" class="form-control" id="txtName" name="txtName" placeholder="Name" />
+                  </div>
+
+                  <div class="mb-3">
+                     <label class="form-label">Description Of Book</label>
+                     <input type="text" class="form-control" id="txtDescription" name="txtDescription" placeholder="Description" />
+                  </div>
+
+
+                  <div class="mb-3">
+                     <label class="form-label">Author's Name</label>
+                     <input type="text" class="form-control" id="txtAuthor" name="txtAuthor" placeholder="Author" />
+                  </div>
+
+
+                  <div class="mb-3">
+                     <label class="form-label">Category</label>
+                     <select class="form-select" id="selCategory" name="selCategory">
+                        <option>Select a category</option>
+                        <option value="1">Biography</option>
+                        <option value="2">Drama</option>
+                        <option value="3">History</option>
+                        <option value="4">Thriller</option>
+                     </select>
+                  </div>
+
+                  <div class="modal-footer d-block">
+
+                     <button onclick="CreateBook()" type="button" style="      background-color: #204e57;" class="btn text-white btn-sm float-end">Create Book</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!--Edit Modal-->
+   <div class="modal fade" id="modalEditForm" tabindex="-1">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title">Update Book</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+               <form>
+                  <input id="txtEditBookId" type="hidden" />
+
+                  <div class="mb-3">
+                     <label class="form-label">Name Of Book</label>
+                     <input type="text" class="form-control" id="txtEditName" name="txtName" placeholder="Name" />
+                  </div>
+
+                  <div class="mb-3">
+                     <label class="form-label">Description Of Book</label>
+                     <input type="text" class="form-control" id="txtEditDescription" name="txtDescription" placeholder="Description" />
+                  </div>
+
+
+                  <div class="mb-3">
+                     <label class="form-label">Author's Name</label>
+                     <input type="text" class="form-control" id="txtEditAuthor" name="txtAuthor" placeholder="Author" />
+                  </div>
+
+
+                  <div class="mb-3">
+                     <label class="form-label">Category</label>
+                     <select class="form-select" id="selEditCategory" name="selEditCategory">
+                        <option>Select a category</option>
+                        <option value="1">Biography</option>
+                        <option value="2">Drama</option>
+                        <option value="3">History</option>
+                        <option value="4">Thriller</option>
+                     </select>
+                  </div>
+
+                  <div class="modal-footer d-block">
+
+                     <button onclick="UpdateBook()" class="btn text-white btn-sm float-end" style=" background-color: #204e57 ;" type="button">Update Book</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+
+
