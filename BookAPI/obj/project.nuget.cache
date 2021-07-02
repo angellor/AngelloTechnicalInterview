@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ck2eAXuv3Fd5jUDXsHpdHUAVtt7IlaSRkbZrsbhNEKGDBKUwViyc1ADDjb/bSmqSVVY3CV/CkFtXoDxat2WfzA==",
+  "dgSpecHash": "QKcdmE6bf3Xbs8/zT/OCxl4W6fFYIVy07TmfkqsxhfCzCjEPKzdc1JSm/lt4d+nWrT8xEJ8OTzObdjttm++E+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\angellor\\Source\\Repos\\AngelloTechnicalInterview\\BookAPI\\BookAPI.csproj",
+  "projectFilePath": "C:\\Users\\angellor\\source\\repos\\AngelloTechnicalInterview\\BookAPI\\BookAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\angellor\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\angellor\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
